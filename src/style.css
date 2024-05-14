@@ -21,6 +21,7 @@ nav {
 }
 
 .filter>button {
+  margin-top: 5px;
   background-color: transparent;
   border: none;
   cursor: pointer;
