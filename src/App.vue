@@ -8,7 +8,7 @@ import Main from './components/Main.vue';
       <div class="nav-inner">
         <img class="logo" src='./assets/Rick_and_Morty.svg' alt="">
         <div class="right code">
-          <a href="https://github.com/Alexander814Yakovlev/rickAndMortyVue"><i class="material-icons">code</i></a>
+          <a href="https://github.com/Alexander814Yakovlev/rickAndMortyVue" target="_blank"><i class="material-icons">code</i></a>
         </div>
       </div>
 
