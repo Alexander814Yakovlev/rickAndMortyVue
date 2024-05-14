@@ -5,9 +5,13 @@ import Main from './components/Main.vue';
 <template>
   <div>
     <nav class="blue lighten-2">
-      <div class="logo">
-        <img src='./assets/Rick_and_Morty.svg' alt="">
+      <div class="nav-inner">
+        <img class="logo" src='./assets/Rick_and_Morty.svg' alt="">
+        <div class="right code">
+          <a href="https://github.com/Alexander814Yakovlev/rickAndMortyVue"><i class="material-icons">code</i></a>
+        </div>
       </div>
+
     </nav>
   </div>
   <Main></Main>

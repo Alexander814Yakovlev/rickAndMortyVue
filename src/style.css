@@ -1,11 +1,19 @@
 nav {
   padding-left: 20px;
 }
-.logo {
+
+.nav-inner {
   padding: 5px;
 }
-.logo>img {
+
+.logo {
+  
   height: 45px;
+  width: 150px;
+}
+
+.code {
+  padding-right: 10px;
 }
 
 .filter {
@@ -22,8 +30,15 @@ select {
   display: unset;
 }
 
-main {
+.content {
   min-height: calc(100vh - 64px - 50px);
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards-list {

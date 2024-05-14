@@ -57,7 +57,7 @@ export default {
 
 <template>
     <main>
-        <div class="container">
+        <div class="container content">
             <div class="row filter">
                 <input v-model="name" type="text" name="filterByName" placeholder="Filter by name...">
                 <select v-model="status" name="filterByStatus">
@@ -93,7 +93,9 @@ export default {
                     </div>
                 </div>
             </div>
-            <div v-else>There is nothing here</div>
+            <div v-else class="not-found">
+                <div class="not-found_text">There is nothing here</div>
+            </div>
             <ul v-if="pages > 1" class="pagination center">
                 <li :class="[this.firstPage ? 'disabled' : 'waves-effect']"
                     @click="this.setPage(this.page > 1 ? --this.page : 1)">
